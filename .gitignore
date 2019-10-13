@@ -1,0 +1,10 @@
+# compiled output
+/alamo-app/dist
+/alamo-app/tmp
+/alamo-app/out-tsc
+/alamo-app/node_modules
+
+# System Files
+*.DS_Store
+*Thumbs.db
+*.editorconfig
