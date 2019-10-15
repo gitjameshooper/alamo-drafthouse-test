@@ -1,0 +1,15 @@
+<section class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="title">Find A Movie</h2>
+            <p class="subtitle">Select Theater</p>
+            <div class="cinemas-container" *ngIf="cinemas$ | async as cinemas">
+                <button *ngFor="let cinema of cinemas| sort: 'name'; let i = index" type="button" (click)="changeCinema({id:cinema.id, name:cinema.name })" class="cinema-btn" [class.active]="activeCinema.id === cinema.id">{{ cinema.name}}</button>
+            </div>
+            <div class="films-container" *ngIf="films$ | async as films">
+                <p class="subtitle">Films Playing at <span class="active-cinema">{{ activeCinema.name }}</span></p>
+                <a *ngFor="let film of films | sort: 'title'; let i = index" href="https://drafthouse.com/show/{{film.slug}}" target="_blank" class="film-btn"><span class="film-title">{{ film.title }}</span> <i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+</section>

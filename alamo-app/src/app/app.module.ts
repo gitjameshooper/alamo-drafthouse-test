@@ -4,13 +4,13 @@ import { SharedModule } from './shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { FindMovieModule } from './find-movie/find-movie.module';
+import { FindFilmModule } from './find-film/find-film.module';
 
 
 @NgModule({
   imports: [
     AppRoutingModule,
-    FindMovieModule,
+    FindFilmModule,
     BrowserAnimationsModule,
     BrowserModule,
     SharedModule.forRoot(),

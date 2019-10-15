@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { FindMovieComponent } from './find-movie/find-movie.component';
+import { FindFilmComponent } from './find-film/find-film.component';
 
 
 @NgModule({
@@ -11,7 +11,7 @@ import { FindMovieComponent } from './find-movie/find-movie.component';
     RouterModule.forRoot([
     	      {
         path: '',
-        component: FindMovieComponent,
+        component: FindFilmComponent,
       }
     ])
   ],

@@ -23,7 +23,7 @@ export class CinemaModel {
     timeZoneName: string;
 }
  
-export class MovieModel{
+export class FilmModel{
     headOfficeCode: string;
     headline: string;
     isRepertory: boolean;
@@ -37,6 +37,12 @@ export class MovieModel{
     slug: string;
     title: string;
 }
+
+export class FilmSourceModel{
+    id: string;
+    name: string;
+}
+
  
  
  

@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
-import { MovieService } from './services/movie.service';
+import { FilmService } from './services/film.service';
 import { ArraySortPipe } from "./pipes/sort.pipe";
 import { NgLetDirective } from "./directives/ng-let.directive";
 import { JsonpModule } from '@angular/http';
@@ -34,7 +34,7 @@ import { JsonpModule } from '@angular/http';
     ArraySortPipe,
   ],
   providers: [
-    MovieService,
+    FilmService,
   ]
 })
 export class SharedModule {

@@ -2,19 +2,6 @@
 
 
 :host {
-  font-family: "Futura PT";
-  background: $offwhite;
-
-  .gradient-bg {
-    position: absolute;
-    width: 1440px;
-    height: 560px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(159.41deg, #FF009D 3.42%, #F5B324 96.5%);
-    transform: skew(-30deg);
-  }
+    font-family: "Futura PT";
+    button:focus {outline:0;}
 }
-
-
-

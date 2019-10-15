@@ -36,7 +36,7 @@
     "@fortawesome/fontawesome-free": "^5.7.2",
     "@types/lodash": "^4.14.122",
     "@types/node": "^10.12.30",
-    "bootstrap": "^3.4.1",
+    "bootstrap": "^4.3.1",
     "codelyzer": "^4.5.0",
     "rxjs-tslint": "^0.1.7",
     "ts-node": "~3.2.0",
